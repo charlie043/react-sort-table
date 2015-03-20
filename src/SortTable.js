@@ -38,10 +38,10 @@ var Row = React.createClass({
 var SortTable = React.createClass({
 
   propTypes: {
-    data : React.PropTypes.array,
-    keys : React.PropTypes.array,
-    label: React.PropTypes.object,
-    flags: React.PropTypes.object
+    data  : React.PropTypes.array,
+    keys  : React.PropTypes.array,
+    labels: React.PropTypes.object,
+    flags : React.PropTypes.object
   },
 
   getDefaultProps: function() {
