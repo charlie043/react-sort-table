@@ -35,13 +35,13 @@ var Row = React.createClass({
   }
 });
 
-var SortTable = React.createClass({
+var SortableTable = React.createClass({
 
   propTypes: {
-    data  : React.PropTypes.array,
-    keys  : React.PropTypes.array,
-    labels: React.PropTypes.object,
-    flags : React.PropTypes.object
+    data : React.PropTypes.array,
+    keys : React.PropTypes.array,
+    label: React.PropTypes.object,
+    flags: React.PropTypes.object
   },
 
   getDefaultProps: function() {
@@ -122,4 +122,4 @@ var SortTable = React.createClass({
   }
 });
 
-module.exports = SortTable;
+module.exports = SortableTable;
