@@ -1,0 +1,26 @@
+{
+  "name": "react-sort-table",
+  "version": "0.0.1",
+  "description": "sortable table with reactjs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:happy-charlie-777/react-sort-table.git"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "sort"
+  ],
+  "author": "charlie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/happy-charlie-777/react-sort-table/issues"
+  },
+  "homepage": "https://github.com/happy-charlie-777/react-sort-table",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "react": "^0.13.1",
+    "react-bootstrap": "^0.17.0"
+  }
+}
